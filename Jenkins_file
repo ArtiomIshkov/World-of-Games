@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                git 'https://github.com/ArtiomIshkov/World-of-Games.git'
+                sh 'ls -ltr'
+            }
+        }
+    }
+}
