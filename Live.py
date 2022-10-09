@@ -34,7 +34,4 @@ def game2():
 
 def game3():
     print("Currency Roulette - try and guess the value of a random amount of USD in ILS")
-# end game
-
-
 
