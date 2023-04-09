@@ -53,3 +53,4 @@ def play_guess_game():
     generate_number()
     get_guess_from_user()
     compare_results()
+#end
